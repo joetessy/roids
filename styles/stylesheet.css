@@ -6,11 +6,6 @@ body {
   background:url(../lib/img/background.png);
 }
 
-img {
-  height: 70%;
-  width: 70%;
-}
-
 header .title {
   margin: auto;
   position: absolute;
