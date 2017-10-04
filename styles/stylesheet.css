@@ -1,1 +1,44 @@
-canvas { background:url(../lib/img/background.png) }
+canvas {
+  z-index: 10;
+}
+
+body {
+  background:url(../lib/img/background.png);
+}
+
+header .title {
+  margin: auto;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  user-select: none;
+  z-index: -1;
+}
+
+.start {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  user-select: none;
+}
+
+.instructions {
+  font-family: Courier;
+  color: white;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  bottom: 20px;
+  z-index: -1;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  font-size: 20px;
+}
