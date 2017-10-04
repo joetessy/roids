@@ -6,7 +6,7 @@ body {
   background:url(../lib/img/background.png);
 }
 
-header .title {
+.title {
   margin: auto;
   position: absolute;
   top: 50px;
@@ -14,17 +14,11 @@ header .title {
   right: 0;
   user-select: none;
   z-index: -1;
-}
-
-.title {
   height: 150px;
 }
 
 .start {
   height: 40px;
-}
-
-.start {
   position: absolute;
   top: 0;
   left: 0;
