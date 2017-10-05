@@ -4,12 +4,13 @@ canvas {
 
 body {
   background:url(../lib/img/background.png);
+  margin: 0;
 }
 
 .title {
   margin: auto;
   position: absolute;
-  top: 50px;
+  top: 40px;
   left: 0;
   right: 0;
   user-select: none;
@@ -19,6 +20,7 @@ body {
 }
 
 .start {
+  z-index: -1;
   height: 40px;
   position: absolute;
   top: 0;
@@ -70,12 +72,13 @@ body {
 
 .instructions {
   font-family: Courier;
+  margin-right: 40px;
   color: white;
   position: absolute;
   display: flex;
   flex-direction: column;
   user-select: none;
-  bottom: 30px;
+  bottom: 0px;
   z-index: -1;
   animation: fade-in 3s;
 }
@@ -105,7 +108,24 @@ li {
   margin: auto;
   bottom: 0;
   right: 0;
-  margin: 20px;
+  margin: 40px;
+}
+
+.audio {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  height: 60px;
+  width: 60px;
+  fill: white;
+  cursor: pointer;
+}
+
+.me {
+  position: absolute;
+  height: 40px;
+  right: 150px;
+  top: 40px;
 }
 
 .lives img {
