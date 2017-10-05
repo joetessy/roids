@@ -40,6 +40,7 @@ body {
 }
 
 li {
+  color: #ffd600;
   list-style: none;
   padding: 10px;
   font-size: 20px;
