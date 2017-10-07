@@ -1,7 +1,7 @@
 # Tie Blaster
 ### Created by: Joe Tessy
 
-[tieblaster][Tie Blaster]
+[Tie Blaster][tieblaster]
 
 Blast incoming Tie Fighters!
 
