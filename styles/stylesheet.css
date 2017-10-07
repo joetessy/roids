@@ -19,6 +19,16 @@ body {
   animation: fade-in 3s;
 }
 
+.github {
+  position: absolute;
+  height: 30px;
+  right: 135px;
+  cursor: pointer;
+  top: 48px;
+  height: 25px;
+  width: 25px;
+}
+
 .start {
   z-index: -1;
   height: 40px;
@@ -124,7 +134,7 @@ li {
 .me {
   position: absolute;
   height: 30px;
-  right: 150px;
+  right: 170px;
   cursor: pointer;
   top: 50px;
 }
