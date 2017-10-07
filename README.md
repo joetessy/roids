@@ -18,4 +18,4 @@ You're in command of an X-Wing Star Fighter and need to survive by blasting inco
 - Push spacebar to shoot
 
 
-![Alt Text](https://media.giphy.com/media/l378jVfwhXhDjZIWs/giphy.gif)
+![Alt Text](/lib/img/gif.gif/)
