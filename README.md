@@ -7,7 +7,7 @@ Blast incoming Tie Fighters!
 
 Tie Blaster is a Star Wars themed 80's arcade space shooter built with Node JS and ES6 JavaScript.
 
-[tieblaster]: https://www.joetessy.life/tie-blaster
+[tieblaster]: https://www.joetessy.github.io/tie-blaster
 
 ![Alt Text](/lib/img/gif.gif/)
 
