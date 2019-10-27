@@ -376,7 +376,6 @@ const game = {
   },
 
   wrap(pos){
-    console.log('YOYOYO');
     if (pos[0] <= 0){
       pos[0] = this.DIMX;
     } else if (pos[0] >= this.DIMX){
@@ -585,13 +584,13 @@ const movingObject = {
     offscreenCtx.rotate(_utils__WEBPACK_IMPORTED_MODULE_1__["Util"].toRadians(angle));
     offscreenCtx.drawImage(img, -(img.width/2), -(img.height/2));
 
-    if (size > 0) return offscreenCanvas;
+    return offscreenCanvas;
   },
 
   drawSprite(ctx, img, size){
-    let angle = this.angle;
-    let rotated = this.rotateAndCache(img, angle);
-    if (rotated !== undefined && ( rotated.width > 0 || rotated.height > 0 ) ) {
+    if (size > 0){
+      let angle = this.angle;
+      let rotated = this.rotateAndCache(img, angle);
       ctx.drawImage(
         rotated,
         this.pos[0] - (size / 2),
